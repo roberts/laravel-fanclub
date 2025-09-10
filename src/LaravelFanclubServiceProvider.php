@@ -2,9 +2,9 @@
 
 namespace Roberts\LaravelFanclub;
 
+use Roberts\LaravelFanclub\Commands\LaravelFanclubCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Roberts\LaravelFanclub\Commands\LaravelFanclubCommand;
 
 class LaravelFanclubServiceProvider extends PackageServiceProvider
 {
